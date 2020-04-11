@@ -107,10 +107,8 @@ header {
     width: 100vw;
     height: 10vh;
     position: fixed;
-   
     z-index: 50;
     background-color: #16162d;
-    
 }
 
 .nav-list {
@@ -143,7 +141,7 @@ li {
 
 .landing-text {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left : 50%;
     transform: translate(-50%, -50%);
     width: 100%;
@@ -152,7 +150,7 @@ li {
 }
 
 .landing-text h1{
-    font-size: 10rem;
+    font-size: 9rem;
     /* change font */
     font-family: 'The Historia Demo', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
@@ -161,10 +159,10 @@ li {
     -webkit-text-fill-color: transparent;
     padding: 1rem;
     user-select: none;
-}
+} 
 
 .landing-text h6 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 300;
 }
 /* End header */
@@ -177,19 +175,19 @@ li {
     align-items: center;
     justify-content: center;
 }
-about-heading {
+.about-heading {
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
     margin-bottom: 6rem;
 }
 
-about-heading h1{
+.about-heading h1{
     font-size: 10rem;
     opacity: .3;
 }
 
-about-heading h6{
+.about-heading h6{
     font-size: 2rem;
     font-weight: 300;
 }
@@ -575,19 +573,4 @@ input[type="submit"]:hover{
         order: 2;
     }
 
-    .timeline p{
-        font-size: 1.6rem;
-    }
-
-    .timeline .date::before{
-        font-size: 1.4rem;
-    }
-
-    form{
-        width: 100%;
-    }
-
-    .up{
-        right: 2rem;
-    }
 }

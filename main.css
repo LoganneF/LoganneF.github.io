@@ -88,6 +88,7 @@ img {
 .section-heading h6{
     font-size: 1.6rem;
     font-weight: 300;
+   padding-top: 1rem;
 }
 
 .has-margin-right{

@@ -55,7 +55,7 @@ img {
 
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(255,255,255, .3);
+    color: rgba(176,146,84, .6);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -164,7 +164,7 @@ li {
 } 
 
 .landing-text h6 {
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 300;
 }
 /* End header */
@@ -310,7 +310,7 @@ li {
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: #3883ff;
+    color: #b09254;
     transition: color 650ms;
 }
 
@@ -402,13 +402,14 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: #b09254;
+    background-color: rgb(225, 224, 224);
 }
 
 input[type="submit"]{
     width: initial;
-    background-color: #e04556;
-    color: #eee;
+    background-color: black;
+    color: rgb(191, 191, 191);
     padding: 1rem 2rem;
     border-radius: .8rem;
     cursor: pointer;
@@ -417,7 +418,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     color: #221e3f;
-    background-color: #ffe838;
+    background-color: #b09254;
 }
 
 /* End Contact */
@@ -429,6 +430,7 @@ input[type="submit"]:hover{
     background-color: black;
     padding: 2rem 0;
     position: relative;
+    color: #b09254;
 }
 
 .up{

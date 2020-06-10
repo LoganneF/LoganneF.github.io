@@ -212,17 +212,15 @@ li {
     transition: color 650ms;
 }
 
-.fa-facebook-square:hover{
-    color: #4267b2;
+.fa-linkedin:hover{
+    color: #0177b5;
 }
 
-.fa-twitter-square:hover{
-    color: #38a1f3;
+.fa-github-square:hover{
+    color: #95f378;
 }
 
-.fa-dribble-square:hover{
-    color: #ea4c89;
-}
+
 /* End about */
 
 

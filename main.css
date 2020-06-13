@@ -249,8 +249,8 @@ li {
 }
 
 .icon-container{
-    width: 10rem;
-    height: 10rem;
+    width: 3rem;
+    height: 3rem;
     border: 3px solid #ffe838;
     background-color: #fd57bf;
     margin-bottom: 2rem;
@@ -260,7 +260,7 @@ li {
 
 .icon-container i{
     color: #ffe838;
-    font-size: 5rem;
+    font-size: 1.5rem;
     margin: auto;
     transform: rotate(-45deg);
 }
